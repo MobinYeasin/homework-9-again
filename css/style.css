@@ -1,0 +1,90 @@
+/* all common css */
+*{padding: 0;
+margin: 0;}
+
+ul,ol{ list-style-type: none; }
+a{ text-decoration: none; }
+
+h1,h2,h3,h4,h5,h6{ margin: 0;
+padding: 0; 
+line-height: 0.8;}
+
+/* header start  */
+#headerpart{ padding: 30px 60px ;
+background: #07110D; } 
+
+.container{ width: 1320px ; margin: 0 auto; } 
+
+.containerflex{display: flex; justify-content: space-between; align-items: center;} 
+.menu{ display: flex; align-items: center; column-gap: 40px;}
+.menu ul{display: flex; align-items: center; column-gap: 40px; 
+}
+.menu ul li a {color: #9DB3A8;  font-family: "Inter", sans-serif;
+font-size: 15px; font-weight: 400;} 
+.menu .headerbutton a{ padding: 12px 22px; background: #1FB57F; border-radius: 999px; color: #07110D; }
+
+/* header end  */ 
+
+/* banner start  */ 
+#bannerpart{ padding-top: 60px ;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 100px;
+background: #07110D;
+}
+.bannerflex{ display: flex; align-items: center; justify-content: space-between; }
+.bannerleft{width: 60%; position: relative; }
+
+.bannerleft h1 { color: aliceblue; font-size: 148px; font-weight: 400; line-height: 88%; 
+font-family: "Bebas Neue", sans-serif; width: 456px; padding-top: 28px; padding-bottom: 28px; }
+
+.bannerleft h4 { color: #1FB57F; font-family: "Inter", sans-serif;
+font-size: 13px; font-weight: 600; width: 378px; text-align: center; 
+text-transform: uppercase;} 
+
+.bannerleft h4::before { position: absolute; height: 3px; width: 40px; background: red;
+content: ""; top: 4px; left: 5px; } 
+
+.bannerleft p { color: #9DB3A8; font-family: "Inter", sans-serif;
+font-size: 19px; font-weight: 400; line-height: 155%; width: 631px;}
+
+.bannerbutton { display: flex; align-items: center; column-gap: 15px; margin-top: 20px;  }
+
+.bannerbutton a {padding: 16px 28px; background: #f42a41; color: #f4efe6;
+font-size: 14px; font-weight: 600; font-family: "Inter", sans-serif; border-radius: 999px; border: 1px solid transparent; } 
+
+.bannerbutton a:hover{ color: #f4efe6; background: transparent; transition: 0.8s; 
+border: 1px solid #f4efe6;} 
+
+.bannerright{ width: 40%; position: relative;} 
+.bannerright img{ width: 100%;} 
+
+.rankcard{ position: absolute; padding: 18px 22px; background: #07110D; color: aliceblue; border-radius: 18px; 
+bottom: 20px; left: 30px;}
+.rankcard h3{ font-size: 28px; font-family: "Bebas Neue", sans-serif;
+font-weight: 400; }
+.rankcard p { color: #9DB3A8; font-family: "Inter", sans-serif;
+font-size: 13px; font-weight: 400; }
+
+/* banner end  */
+
+/* banner start  */
+/* banner end  */
+
+/* banner start  */
+/* banner end  */
+
+/* banner start  */
+/* banner end  */
+
+/* banner start  */
+/* banner end  */
+
+/* banner start  */
+/* banner end  */
+
+/* banner start  */
+/* banner end  */
+
+/* banner start  */
+/* banner end  */
